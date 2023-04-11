@@ -3,12 +3,17 @@
 <!-- mdformat-toc start --slug=github --maxlevel=6 --minlevel=1 -->
 
 - [python_test](#python_test)
+  - [Documentation (misc/docs)](#documentation-miscdocs)
   - [Setup Local Dev Environment](#setup-local-dev-environment)
   - [Usefull tools](#usefull-tools)
     - [Autoupdate version of the tools in .pre-commit-config.yaml](#autoupdate-version-of-the-tools-in-pre-commit-configyaml)
     - [Run pre-commit check for all files](#run-pre-commit-check-for-all-files)
 
 <!-- mdformat-toc end -->
+
+## Documentation (misc/docs)<a name="documentation-miscdocs"></a>
+
+- [Git Hub workflow](misc/docs/github-workflow.md)
 
 ## Setup Local Dev Environment<a name="setup-local-dev-environment"></a>
 
