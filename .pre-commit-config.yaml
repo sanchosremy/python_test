@@ -4,9 +4,7 @@ repos:
     hooks:
     -   id: check-yaml
         args: [--allow-multiple-documents]
-        exclude: ^misc/k8s/.*$
     -   id: end-of-file-fixer
-        exclude: ^(.*_pb2.*.py)$
     -   id: trailing-whitespace
     -   id: requirements-txt-fixer
 - repo: https://github.com/executablebooks/mdformat
@@ -31,13 +29,11 @@ repos:
             [
             "-rn", # Only display messages
             "-sn", # Don't display the score
-            "--ignore-patterns=.*_pb2.*.py"
             ]
 -   repo: https://github.com/psf/black
     rev: 23.3.0
     hooks:
     -   id: black
-        exclude: ^(.*_pb2.*.py)$
 -   repo: https://github.com/pre-commit/mirrors-mypy
     # Mypy is a static type checker for Python
     rev: v1.1.1
