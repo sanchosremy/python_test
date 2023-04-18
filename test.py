@@ -1,7 +1,0 @@
-name = input('Quel est votre prénom: ')
-print('Hello ' + name + ' !')
-favorite_color = input('Quelle est votre couleur préférée:  ')
-print(name + ' likes ' + favorite_color)
-birth_year = input('Votre date de naissance: ')
-age = 2023 - int(birth_year)
-print(age)
