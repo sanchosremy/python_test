@@ -1,3 +1,4 @@
+# pylint: disable=missing-function-docstring
 """
 Variables
 """
@@ -23,3 +24,12 @@ FIRST_NAME = "John"
 LAST_NAME = "Smith"
 FULL_NAME = FIRST_NAME + " " + LAST_NAME
 print(FULL_NAME)
+
+
+def get_full_name(first_name, last_name):
+    full_name = first_name + last_name
+    return full_name
+
+
+RESULT = get_full_name("ALEXANDRE ", "REMY")
+print(RESULT)
