@@ -8,6 +8,3 @@ def get_day_decription(is_hot, is_cold):
     else:
         print("It's a lovely day")
     print("Enjoy your day")
-
-
-get_day_decription(is_hot=False, is_cold=True)
