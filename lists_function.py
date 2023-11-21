@@ -1,3 +1,5 @@
+# pylint: disable=missing-module-docstring
+# pylint: disable=missing-function-docstring
 def max_numbers(numbers):
     max_number = numbers[0]
     for number in numbers:
