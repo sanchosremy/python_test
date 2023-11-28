@@ -7,5 +7,5 @@ def greet_user(first_name, last_name):
     return result
 
 
-message = greet_user("John", "Smith")
-print(message)
+MESSAGE = greet_user("John", "Smith")
+print(MESSAGE)
