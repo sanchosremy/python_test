@@ -1,3 +1,5 @@
+# pylint: disable=missing-module-docstring
+# pylint: disable=missing-function-docstring
 def guessing_game(secret_number, guess_count, guess_limit):
     while guess_count < guess_limit:
         guess = int(input("Guess: "))
